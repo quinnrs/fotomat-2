@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="./resources/css/SQindex2.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, charset="UTF-8">
+</head>
+<!-- Landing Zone Screen width > 1026 -->
+<body>
+    <!-- Header -->
+    <header>
+    <nav
+        <ul>
+            <li><a <h3>Fotomat </a></li>
+            <li><a href="#">Product detail</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="https://www.instagram.com/">Follow us <img class="icon" src="./resources/images/instagram.png"></a></li>
+        </ul>
+    </nav>
+
+    
+        
+    </header>
+
+  <!-- Main Content -->
+    
+     <!-- Sign Up Section -->
+     <div id="sign-up-section">
+      <div id="sign-up-cta">
+        <div class="content center">
+            <div class="header">
+              <h2 class="cursive">Instant</h2>
+              <h1 class="striking">FORMAT CAMERA</h1>
+            </div>
+            <div class="email">
+              <span>
+                Email us to request a demo and be in our waiting list for the <strong>Febuary 2017</strong> release!
+              </span>
+              <div class="button">Join the waiting list</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+    <!-- Features Section -->
+
+    <!-- Filter Section -->
+
+    <!-- Quote Section -->
+    <div id="quote-section"
+      <div id="quote-section-container">
+        <div id="quote">
+          <p>"It's truly something that could create a brand new photography Rennaissance"</p>
+        </div>
+        <div id="quote-source">
+          <img src="/resources/images/photography-logo.png">
+        </div>
+      </div>
+    </div>
+
+
+
+  
+
+    <!-- Footer -->
+    <footer>
+      <div class="content">
+        <span class="copyright">© 2016  Fotomatic, All Rights Reserved</span>
+        <span class="location">Designed in NYC</span>
+      </div>
+    </footer>
+
+
+</body>
