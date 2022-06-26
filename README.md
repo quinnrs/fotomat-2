@@ -1,0 +1,1 @@
+This is a codecademy exercise to repair broken code and setu a responxive website from a set of specs. I also wat  to use this project to setup a use a new github repository from the command line.r
