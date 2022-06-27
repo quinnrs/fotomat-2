@@ -20,8 +20,9 @@ html {
     overflow: hidden;
   }
   
-  .image-container img {
-    display: block;
+  img {
+    max-width: 100%;
+    display: inline-flexgit add;
   }
 
   /* Header */
@@ -238,30 +239,30 @@ header {
 
   /* Filters Section */
 
-#filters-section {
+.filters-section {
     padding: 4rem 0;
     background-color: #4a4a4a;
   }
   
-  #filters-section .content {
+  .filters-banner {
     padding: 0 .625rem;
     margin-bottom: 5rem;
   }
   
-  #filters-section .content h2 {
+  .filters-banner h2 {
     font-size: 2.25rem;
     font-weight: bold;
     color: white;
   }
   
-  #filters-section .content h3 {
+  .filters-banner  h3 {
     font-size: 1rem;
     line-height: 1.4;
     font-weight: 300;
     color: white;
   }
   
-  #filters-section .images-container {
+  #filter-images-container {
     max-width: 100%;
     padding: 0 1%;
   }
@@ -282,7 +283,7 @@ header {
     background-color: white;
   }
   
-  .feature .image-container {
+  #feature-image-container {
     width: 90%;
     height: 65%;
     margin: 0 auto;
@@ -386,10 +387,11 @@ header {
   
   #quote-section-container {
     padding: 5rem 0;
-    display:inline;
+    display:flex;
+    align-items: center;
     background-color: #f3f3f3;
     height: 12.5rem;
-    width: 100%
+    max-width: 100%;
   }
   
   #quote  {
@@ -398,13 +400,12 @@ header {
     font-size: 1.875rem;
     line-height: 1.1;
     font-style: italic;
-    vertical-align: middle;
     color: #4a4a4a;
   }
   
   #quote-source {
     height: 3rem;
-    width: 12rem;
+    width: 8rem;
     vertical-align: middle;
   }
   
@@ -419,7 +420,8 @@ header {
     }
   
     #quote-source {
-      display: block;
+      display: inline-block;
+      vertical-align: middle;
       padding-top: 1rem;
       margin: auto;
     }
