@@ -22,7 +22,7 @@ html {
   
   img {
     max-width: 100%;
-    display: inline-flex;
+    display: block;
   }
 
   /* Header */
@@ -200,21 +200,6 @@ header {
     }
   }
 
-  /* Features Section */
-
-
-  
-
-  
-  
-  
- 
-  
-  
-
-  /* Filters Section */
-
-
 
   /* Features Section */
 
@@ -222,30 +207,31 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 4rem 5%;
+    margin-top: 4rem;
     background-color: #f3f3f3;
   }
   
-  .feature {
+  #features-container {
     flex: 1;
     padding: 2rem;
     margin: 0px 1.25rem;
     background-color: white;
   }
   
-  #feature-image-container {
+  #features-container {
     width: 90%;
     height: 65%;
     margin: 0 auto;
   }
   
-  .feature h2 {
+  #feature-container h2 {
     padding-bottom: .5rem;
     font-size: 2.25rem;
     font-weight: bold;
     color: #4a4a4a;
   }
   
-  .feature h3 {
+  #features-container h3 {
     font-size: 1rem;
     line-height: 1.2;
     font-weight: 300;
@@ -253,20 +239,20 @@ header {
   }
   
   @media only screen and (max-width: 890px) {
-    .feature h2 {
+    #features-container h2 {
       font-size: 1.125rem;
       line-height: 1.3;
       font-weight: normal;
     }
   
-    .feature h3 {
+    #features-container h3 {
       font-size: .875rem;
       line-height: 1.4;
     }
   }
 
 
-  .feature {
+  #features-container {
     margin: 0;
     padding: 1.25rem 1rem 0 1rem;
   }
@@ -275,6 +261,7 @@ header {
 
 #filters-section {
     padding: 4rem 0;
+    margin-top: 4 rem;
     background-color: #4a4a4a;
   }
   
