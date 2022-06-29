@@ -202,75 +202,19 @@ header {
 
   /* Features Section */
 
-.features-container {
-    display: flex;
-    flex: 1;
-    justify-content: space-between;
-    padding: 4rem 5%;
-    background-color: #f3f3f3;
-  }
+
   
-  .feature-box {
-    height: 90;
-    width: 65%
-    margin 0px 1.25rem;
-    background-color: white;
-    text-align: center;
-  }
+
   
-  .feature-image-container {
-    width: 90%;
-    height: 65%;
-    padding: 2rem
-  }
   
-  .feature-content {
-    padding: 1.25rem;
-    margin-bottom: 5rem;
-  }
-  .feature-content h2 {
-    padding-bottom: .5rem;
-    font-size: 2.25rem;
-    font-weight: bold;
-    color: #4a4a4a;
-  }
   
-  .feature-content h3 {
-    font-size: 1rem;
-    line-height: 1.2;
-    font-weight: 300;
-    color: #4a4a4a;
-  }
+ 
+  
+  
 
   /* Filters Section */
 
-.filters-section {
-    padding: 4rem 0;
-    background-color: #4a4a4a;
-  }
-  
-  .filters-banner {
-    padding: 0 .625rem;
-    margin-bottom: 5rem;
-  }
-  
-  .filters-banner h2 {
-    font-size: 2.25rem;
-    font-weight: bold;
-    color: white;
-  }
-  
-  .filters-banner  h3 {
-    font-size: 1rem;
-    line-height: 1.4;
-    font-weight: 300;
-    color: white;
-  }
-  
-  #filter-images-container {
-    max-width: 100%;
-    padding: 0 1%;
-  }
+
 
   /* Features Section */
 
@@ -334,26 +278,27 @@ header {
     background-color: #4a4a4a;
   }
   
-  #filters-section .content {
+  #filters-banner {
     padding: 0 .625rem;
     margin-bottom: 5rem;
   }
   
-  #filters-section .content h2 {
+  #filters-banner h2 {
     font-size: 2.25rem;
     font-weight: bold;
     color: white;
   }
   
-  #filters-section .content h3 {
+  #filters-banner h3 {
     font-size: 1rem;
     line-height: 1.4;
     font-weight: 300;
     color: white;
   }
   
-  #filters-section .images-container {
+  #filters-image-container {
     max-width: 100%;
+    display: flex;
     padding: 0 1%;
   }
   
@@ -366,7 +311,7 @@ header {
       margin-bottom: 1rem;
     }
   
-    #filters-section .content h2 {
+    #filters-banner h2 {
       padding-bottom: .625rem;
       font-size: 1.125rem;
       line-height: 1.3;
