@@ -20,7 +20,7 @@ html {
     overflow: hidden;
   }
   
-  img {
+  .image-container img {
     max-width: 100%;
     display: block;
   }
@@ -249,17 +249,16 @@ header {
       font-size: .875rem;
       line-height: 1.4;
     }
-  }
 
-
-  #features-container {
+    #features-container {
     margin: 0;
     padding: 1.25rem 1rem 0 1rem;
-  }
+    }
+  }  
 
-  /* Filters Section */
+    /* Filters Section */
 
-#filters-section {
+#filters-container {
     padding: 4rem 0;
     margin-top: 4 rem;
     background-color: #4a4a4a;
@@ -268,6 +267,7 @@ header {
   #filters-banner {
     padding: 0 .625rem;
     margin-bottom: 5rem;
+    text-align: center;
   }
   
   #filters-banner h2 {
@@ -283,18 +283,21 @@ header {
     color: white;
   }
   
-  #filters-image-container {
+  #filters-images-container {
     max-width: 100%;
     display: flex;
     padding: 0 1%;
   }
+
+
+
   
   @media only screen and (max-width: 760px) {
-    #filters-section {
+    #filters-container {
       padding: 1.5rem 0 0 0;
     }
   
-    #filters-section .content {
+    #filters-banner {
       margin-bottom: 1rem;
     }
   
@@ -305,16 +308,21 @@ header {
       font-weight: normal;
     }
   
-    #filters-section .content h3 {
+    #filters-banner h3 {
       font-size: .875rem;
       line-height: 1.4;
     }
+
+    #filter-image {
+      max-width: 100%;
+      display: block;
+    } 
   
-    #filters-section .images-container {
+    #filters-images-container {
       padding: 0;
     }
   
-    #filters-section .extra {
+    #filter-image .extra {
       display: none;
     }
   }
